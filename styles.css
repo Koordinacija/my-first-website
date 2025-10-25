@@ -13,7 +13,7 @@ background-size: cover; color: var(--text); font-family: "Poppins", sans-serif;
  line-height: 1.6; }
 .wrap { max-width: 860px; margin: 0 auto; padding: 2rem; }
 header { text-align: center; padding: 6rem 2rem; background: rgba(20, 26, 35, 0.6);
-color: #ffffff;
+color: #ffffff; border-radius: 16px;
  }
 h1 { font-size: clamp(2rem, 4vw, 3rem); margin: 0 0 1rem; }
 h2 { margin-top: 2rem; }
