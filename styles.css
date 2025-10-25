@@ -8,7 +8,8 @@
 }
 
 * { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: "Poppins", sans-serif;
+html, body { margin: 0; padding: 0; background: url("BackgroundStorm.png") no-repeat center center fixed;
+background-size: cover; color: var(--text); font-family: "Poppins", sans-serif;
  line-height: 1.6; }
 .wrap { max-width: 860px; margin: 0 auto; padding: 2rem; }
 header { text-align: center; padding: 6rem 2rem; background: linear-gradient(180deg, rgba(110,231,183,0.07), transparent 60%), var(--bg); }
@@ -24,10 +25,7 @@ footer { text-align: center; color: var(--muted); }
   display: inline-block;
   margin-top: 1rem;
   padding: 0.75rem 1.1rem;
-  
-  background: url("BackgroundStorm.png") no-repeat center center fixed;
-background-size: cover;
-
+  background: var(--accent);
   color: #0b0e14;
   border-radius: 999px;
   text-decoration: none;
