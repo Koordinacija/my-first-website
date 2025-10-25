@@ -1,10 +1,10 @@
 /* Minimal, clean styles */
 :root {
-  --bg: #0b0e14;
-  --card: #141a23;
-  --text: #e6e6e6;
-  --muted: #9aa4b2;
-  --accent: #6ee7b7;
+  --bg: #ffffff;
+  --card: #f4f6f8;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --accent: #3b82f6;
 }
 
 * { box-sizing: border-box; }
