@@ -54,5 +54,23 @@ footer { text-align: center; color: var(--muted); }
 .nav-link:hover {
   background: rgba(255, 255, 255, 0.2);
 }
+/* Make the nav stick to the top */
+.nav-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  /* nice translucent pill background */
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(6px);        /* pretty glass effect */
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 999px;
+
+  /* spacing so it doesn’t hug the edges */
+  max-width: 860px;          /* same width as .wrap */
+  margin: 0.75rem auto 1rem; /* center + a bit of top/bottom space */
+  padding: 0.35rem 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
 
 .btn:hover { opacity: 0.9; }
