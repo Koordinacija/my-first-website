@@ -8,11 +8,11 @@
 }
 
 * { box-sizing: border-box; }
-html, body { margin-top: 96px; margin: 0; padding: 0; background: url("BackgroundStorm.png") no-repeat center center fixed;
+html, body { margin: 0; padding: 0; background: url("BackgroundStorm.png") no-repeat center center fixed;
 background-size: cover; color: var(--text); font-family: "Poppins", sans-serif;
  line-height: 1.6; }
 .wrap { max-width: 860px; margin: 0 auto; padding: 2rem; }
-header { text-align: center; padding: 6rem 2rem; background: rgba(20, 26, 35, 0.6);
+header { margin-top: 96px; text-align: center; padding: 6rem 2rem; background: rgba(20, 26, 35, 0.6);
 color: #ffffff; border-radius: 16px;
  }
 h1 { font-size: clamp(2rem, 4vw, 3rem); margin: 0 0 1rem; }
