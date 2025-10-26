@@ -76,3 +76,7 @@ footer { text-align: center; color: var(--muted); }
 }
 
 .btn:hover { opacity: 0.9; }
+
+/* Height = nav’s top offset + nav’s own height */
+.nav-space { height: 96px; }   /* tweak to match your nav; 88–110px usually works */
+
